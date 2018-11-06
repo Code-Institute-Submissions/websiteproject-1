@@ -5,3 +5,18 @@ body {
 .navbar-light{
   background-color: pink;
 }
+
+footer{
+  background-color: khaki;
+  
+
+#footer-details{
+  max-height: 28px;
+
+  }
+
+}
+
+social-links{
+  color: green;
+}
