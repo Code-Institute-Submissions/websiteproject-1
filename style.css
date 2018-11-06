@@ -7,16 +7,21 @@ body {
 }
 
 footer{
+  max-height:inherit;
   background-color: khaki;
-  
+  margin: 0;
+
+}
 
 #footer-details{
-  max-height: 28px;
 
-  }
+
 
 }
 
-social-links{
-  color: green;
-}
+
+.social-links li a i {
+    height: inherit;
+    background-color: red;
+    text-align: justify;
+    
