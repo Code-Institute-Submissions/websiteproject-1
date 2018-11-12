@@ -1,35 +1,40 @@
 body {
   background-color: cornsilk;
 
-
-
 }
 
 .navbar-light{
-  background-color: pink;
+  background-color: peachpuff;
   font-size-adjust: auto;
   font-size: large;
+  text-align: right;
+  font-weight: bolder;
+  max-height: inherit;
+  height: auto;
 }
 
 
 
+.logo{
+  background-color: red;
 }
 
-footer{
+
+.footer{
   max-height:inherit;
   background-color: khaki;
   margin: 0;
 
 }
 
-#footer-details{
 
-
-
+.footer-details{
+  text-decoration: none;
 }
 
 
 .social-links li a i {
     height: inherit;
-    background-color: red;
     text-align: justify;
+  
+  }
