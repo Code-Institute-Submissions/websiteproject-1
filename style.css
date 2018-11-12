@@ -1,9 +1,18 @@
 body {
   background-color: cornsilk;
+
+
+
 }
 
 .navbar-light{
   background-color: pink;
+  font-size-adjust: auto;
+  font-size: large;
+}
+
+
+
 }
 
 footer{
@@ -24,4 +33,3 @@ footer{
     height: inherit;
     background-color: red;
     text-align: justify;
-    
