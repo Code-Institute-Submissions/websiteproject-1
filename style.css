@@ -12,7 +12,7 @@ body {
   max-height: inherit;
   height: auto;
   margin-top: 10px;
-  margin-bottom: 0;     
+  margin-bottom: 0;
 }
 
 
@@ -34,13 +34,36 @@ body {
 }
 
 
-.footer-details{
+#footer-details{
   text-decoration: none;
-}
+  background-color: lightblue;
+  }
 
 
 .social-links li a i {
-    height: inherit;
-    text-align: justify;
+  text-align: center;
+  border-radius: 50%;
+  height: 24px;
+-webkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
+}
 
-  }
+  .social-links li a i:hover{
+    background-color: Tomato;
+
+
+
+
+/*
+.social-links li a i {
+  color: yellow;
+  height: 30px;
+  display: inline-flex;
+  line-height: 7px;
+  padding:12px 0;
+  text-decoration: none;
+  } */
+
+
+  .social-links li a i:hover{
+    background-color: Tomato;
