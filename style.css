@@ -11,9 +11,15 @@ body {
   font-weight: bolder;
   max-height: inherit;
   height: auto;
+  margin-top: 10px;
+  margin-bottom: 0;     
 }
 
 
+.image{
+  padding-left: 10px;
+  height: 50px;
+}
 
 .logo{
   background-color: red;
@@ -36,5 +42,5 @@ body {
 .social-links li a i {
     height: inherit;
     text-align: justify;
-  
+
   }
