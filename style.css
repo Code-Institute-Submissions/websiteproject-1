@@ -16,54 +16,54 @@ body {
 }
 
 
-.image{
+.logo{
   padding-left: 10px;
   height: 50px;
 }
 
-.logo{
-  background-color: red;
-}
 
+.img-responsive{
+  margin-right: 0;
+    width: 1110px;
+}
 
 .footer{
   max-height:inherit;
   background-color: khaki;
   margin: 0;
-
 }
-
 
 #footer-details{
   text-decoration: none;
   background-color: lightblue;
+  padding:0;
+  text-align: left;
   }
 
 
 .social-links li a i {
   text-align: center;
-  border-radius: 50%;
+  border-radius: 40%;
   height: 24px;
--webkit-transition: all 0.35s ease-in-out;
--o-transition: all 0.35s ease-in-out;
+  list-style-type:none;
 }
 
-  .social-links li a i:hover{
-    background-color: Tomato;
+.footer-contains{
+  max-height: 100px;
+  height: 10%;
+  list-style-type: none;
+}
+
+*{
+  list-style-type: none;
+}
 
 
+.quicklink-block {
+  font-size: larger;
+  font-weight: 400;
+}
 
-
-/*
-.social-links li a i {
-  color: yellow;
-  height: 30px;
-  display: inline-flex;
-  line-height: 7px;
-  padding:12px 0;
-  text-decoration: none;
-  } */
-
-
-  .social-links li a i:hover{
-    background-color: Tomato;
+.quicklink-text{
+  padding-left: 30px;
+}
