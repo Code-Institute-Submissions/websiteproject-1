@@ -1,5 +1,6 @@
 body {
   background:url(assets/ron-smith-328524-unsplash.jpg);
+
 }
 
 
@@ -23,8 +24,7 @@ body {
 
 
 .img-responsive{
-  margin-right: 0;
-    width: 1110px;
+  width: 1110px;
 }
 
 .footer{
@@ -60,9 +60,15 @@ body {
 
 .quicklink-block {
   font-size: larger;
-  font-weight: 400;
+  font-weight: 500;
+  float: right;
+  padding-top: 48px;
+  padding-left: 100px;
 }
 
 .quicklink-text{
-  padding-left: 30px;
+padding: 0;
+float: right;
+padding-right: 120px;
+margin-bottom: 0;
 }
