@@ -59,11 +59,12 @@ body {
 
 
 .quicklink-block {
+  margin-right: 100px;
   font-size: larger;
   font-weight: 500;
   float: right;
-  padding-top: 48px;
-  padding-left: 100px;
+  padding-top: 0;
+  padding-left: 90px;
 }
 
 .quicklink-text{
