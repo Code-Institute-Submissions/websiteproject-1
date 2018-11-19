@@ -43,8 +43,5 @@ body {
 }
 
 .quicklink-text{
-padding: 0;
-float: right;
-padding-right: 120px;
-margin-bottom: 0;
+  margin-left: 350px;
 }
