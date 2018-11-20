@@ -3,7 +3,6 @@ body {
 
 }
 
-
 .navbar-light{
   background-color: peachpuff;
   font-size-adjust: auto;
@@ -16,12 +15,10 @@ body {
   margin-bottom: 0;
 }
 
-
 .logo{
   padding-left: 10px;
   height: 50px;
 }
-
 
 .img-responsive{
   width: 1110px;
@@ -35,7 +32,7 @@ body {
 
 .quicklink-block {
   margin-right: 100px;
-  font-size: larger;
+  font-size: x-large;
   font-weight: 500;
   float: right;
   padding-top: 0;
@@ -43,5 +40,10 @@ body {
 }
 
 .quicklink-text{
-  margin-left: 350px;
-}
+  margin-left: 320px;
+  }
+
+  a:hover {
+      color: navajowhite;
+      text-decoration: underline;
+  }
