@@ -43,6 +43,12 @@ body {
   border:0px;
 }
 
+#contact_image{
+  padding-top: 0px;
+  width: 900px;
+  
+}
+
 *{
   list-style-type: none;
 }
