@@ -36,6 +36,12 @@ body {
   border:0px;
 }
 
+.pics_row{
+  /* box-sizing: border-box; */
+}
+
+
+
 .music_image{
   width: 700px;
   height: 500px;
