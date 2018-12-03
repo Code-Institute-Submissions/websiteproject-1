@@ -2,6 +2,12 @@ body {
   background:url(assets/ron-smith-328524-unsplash.jpg);
 }
 
+.page{
+  position: relative;
+  margin: 0 auto;
+
+}
+
 .navbar-light{
   /* background-color: peachpuff; */
   font-size-adjust: auto;
@@ -31,7 +37,7 @@ body {
   padding-right: 18px;
 }
 
-.img-responsive{
+.img-fluid{
   width: 1110px;
   border:0px;
 }
