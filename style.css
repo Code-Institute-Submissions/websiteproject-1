@@ -1,3 +1,5 @@
+/*********** Global CSS***********/
+
 body {
   background: url(assets/ron-smith-328524-unsplash.jpg);
 }
@@ -17,7 +19,6 @@ body {
   height: auto;
   margin-top: 10px;
   margin-bottom: 0;
-  background-color: transparent;
 }
 
 .navbar-contactpage {
@@ -37,6 +38,12 @@ body {
   padding-right: 18px;
 }
 
+* {
+  list-style-type: none;
+}
+
+/*********** Welcome Page CSS***********/
+
 .img-fluid {
   width: 1110px;
   border: 0px;
@@ -44,22 +51,6 @@ body {
 
 .pics_row {
   box-sizing: border-box;
-}
-
-.music_image {
-  width: 700px;
-  height: 500px;
-  padding-top: 0px;
-  border: 0px;
-}
-
-#contact_image {
-  padding-top: 0px;
-  width: 900px;
-}
-
-* {
-  list-style-type: none;
 }
 
 .quicklink-block {
@@ -75,6 +66,7 @@ body {
 .quicklink-text{
   float: right;
   }
+
 a:hover {
   color: navajowhite;
   text-decoration: underline;
@@ -84,3 +76,43 @@ a {
   color: #21305ff2;
   text-decoration: none;
   background-color: transparent;
+}
+
+/*********** Listen to our Music Page CSS***********/
+
+.music_image {
+  width: 700px;
+  height: 500px;
+  padding-top: 0px;
+  border: 0px;
+}
+
+#contact_image {
+  padding-top: 0px;
+  width: 900px;
+}
+
+
+
+/*********** Gallery CSS***********/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 5px solid grey;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
