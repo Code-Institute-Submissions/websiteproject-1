@@ -101,6 +101,7 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    margin-left: 16px;
 }
 
 div.gallery:hover {
@@ -113,6 +114,8 @@ div.gallery img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
+    font-weight: 400;
+    font-style: italic;
 }
