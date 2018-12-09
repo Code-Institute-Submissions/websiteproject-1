@@ -67,16 +67,7 @@ body {
   float: right;
   }
 
-a:hover {
-  color: navajowhite;
-  text-decoration: underline;
-}
 
-a {
-  color: #21305ff2;
-  text-decoration: none;
-  background-color: transparent;
-}
 
 /*********** Listen to our Music Page CSS***********/
 
@@ -118,4 +109,16 @@ div.desc {
     text-align: center;
     font-weight: 400;
     font-style: italic;
+}
+
+/*********** Footer CSS***********/
+a:hover {
+  color: navajowhite;
+  text-decoration: underline;
+}
+
+a {
+  color: #21305ff2;
+  text-decoration: none;
+  background-color: transparent;
 }
