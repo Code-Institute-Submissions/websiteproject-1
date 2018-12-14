@@ -111,6 +111,26 @@ div.desc {
     font-style: italic;
 }
 
+
+/*********** Contact Us CSS***********/
+
+.text-center{
+padding-top: 2em;
+text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*********** Footer CSS***********/
 a:hover {
   color: navajowhite;
