@@ -83,6 +83,10 @@ body {
   width: 900px;
 }
 
+#music_links{
+ padding:200px;
+ padding-top: 0px;
+}
 
 
 /*********** Gallery CSS***********/
