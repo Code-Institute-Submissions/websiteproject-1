@@ -73,6 +73,13 @@ body {
   width: 900px;
 }
 
+.band_text {
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
 
 /*********** Gallery CSS***********/
 
