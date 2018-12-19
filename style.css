@@ -161,7 +161,6 @@ color: #bdbdbd;
     transition: .2s;
 }
 
-/* On hover, the color of .btn will transition to white with black text */
 .btn:hover, .btn:focus {
     border: 1px solid #333;
     background-color: #fff;
