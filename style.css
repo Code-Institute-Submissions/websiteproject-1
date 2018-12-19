@@ -63,6 +63,14 @@ body {
 
 /*********** Listen to our Music Page CSS***********/
 
+.bio_background{
+  background: Moccasin;
+  opacity: 0.7;
+  padding-left: 70px;
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
 .music_image {
     width: 100%;
     padding-top: 0px;
@@ -73,11 +81,20 @@ body {
   width: 900px;
 }
 
-.band_text {
+.band_text{
     text-align: center;
     font-weight: 400;
     font-style: italic;
     box-sizing: border-box;
+}
+
+
+.bio_section {
+  margin: 5px;
+  width: 250px;
+  margin-left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
@@ -130,26 +147,12 @@ color: #bdbdbd;
 }
 
 .bg-1 p {font-style: italic;
-
 }
 
 .event_text{
   text-align: center;
 }
 
-/* Remove border and add padding to thumbnails */
-/* .thumbnail {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
-}
-
-.thumbnail p {
-    margin-top: 15px;
-    color: #555;
-} */
-
-/* Black buttons with extra padding and without rounded borders */
 .btn {
     padding: 10px 20px;
     background-color: #333;
@@ -164,14 +167,6 @@ color: #bdbdbd;
     background-color: #fff;
     color: #000;
 }
-
-#event_box{
-  border-style:solid;
-  border-color:aqua;
-  border-width:1px;
-
-}
-
 
 
 
@@ -194,7 +189,7 @@ a {
   }
 }
 
-@@media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
   .padding-top-mobile {
     padding-top: 10px;
     padding-bottom: 15px;
