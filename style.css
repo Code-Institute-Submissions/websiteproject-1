@@ -5,7 +5,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
 }
 
 
@@ -199,4 +199,16 @@ a {
     padding-bottom: 15px;
   }
 
+}
+
+.quicklink-text{
+  color: black;
+}
+
+.quicklink-block{
+  color: darkblue;
+}
+
+.Connect-with us-text{
+  color: black;
 }
