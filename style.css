@@ -1,9 +1,13 @@
 /*********** Global CSS***********/
-
-body {
-  background: url(assets/ron-smith-resized_89.jpg);
-  background:
+body{
+  background: url(assets/ron-smith-resized_89.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
+
 
 .page {
   position: relative;
@@ -69,7 +73,7 @@ body {
   opacity: 0.7;
   padding-left: 70px;
   border: 1px solid #ccc;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .music_image {
@@ -173,7 +177,7 @@ color: #bdbdbd;
 
 /*********** Footer CSS***********/
 a:hover {
-  color: navajowhite;
+  color: red;
   text-decoration: underline;
 }
 
