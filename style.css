@@ -79,7 +79,18 @@ body{
 .music_image {
     width: 100%;
     padding-top: 0px;
+    border: 1px solid #ccc;
   }
+
+  .bio_text{
+    font-size:200;
+    font-weight:500;
+    color:black
+  }
+
+#music_bio{
+   border: 3px solid white;
+}
 
 #contact_image {
   padding-top: 0px;
@@ -178,13 +189,7 @@ color: #bdbdbd;
 /*********** Footer CSS***********/
 a:hover {
   color: red;
-  text-decoration: underline;
-}
-
-a {
-  color: #21305ff2;
   text-decoration: none;
-  background-color: transparent;
 }
 
 @media screen and (max-width:768px) {
