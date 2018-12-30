@@ -5,9 +5,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
 }
-
 
 .page {
   position: relative;
@@ -78,9 +76,7 @@ body{
     border: 1px solid #ccc;
   }
 
-
-
-  audio{
+audio{
     width: 220px;
   }
 
@@ -90,19 +86,10 @@ body{
 
   .track_container{
     border-radius: 20px;
-    /* border: 1px solid white; */
-    /* padding: 5px; */
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 15px;
 }
-
-  /* border-style: dashed;
-  border-radius: 20px;
-  border-right: 30px;
-  padding:4px;
-  padding-left:0px;
-  background-color: pink; */
 
 #contact_image {
   padding-top: 0px;
@@ -115,7 +102,6 @@ body{
     font-style: italic;
     box-sizing: border-box;
 }
-
 
 .bio_section {
   margin: 5px;
@@ -142,8 +128,33 @@ h6{
    border: 3px solid white;
 }
 
-/*********** Gallery CSS***********/
+#album_images {
+padding-left: 70px;
+position: relative;
+top: -400px;
+}
 
+.text-center{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  text-decoration-style: wavy;
+}
+.album1_image{
+  width: 200px;
+  padding-right: 10px;
+}
+
+.album2_image{
+  width:200px;
+  padding-right: 10px;
+}
+
+.album3_image{
+  width:190px;
+}
+
+/*********** Gallery CSS***********/
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -168,7 +179,6 @@ div.desc {
     font-style: italic;
 }
 
-
 /*********** Contact Us CSS***********/
 
 .text-center{
@@ -177,10 +187,7 @@ text-align: left;
 }
 
 
-
-
 /*********** Event CSS***********/
-
 
 .bg-1 {
 background: #2d2d30;
@@ -210,8 +217,6 @@ color: #bdbdbd;
     background-color: #fff;
     color: #000;
 }
-
-
 
 
 /*********** Footer CSS***********/
