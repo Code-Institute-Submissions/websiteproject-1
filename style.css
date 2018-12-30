@@ -113,6 +113,13 @@ audio{
 
 /*********** Biography CSS***********/
 
+@media screen and (max-width:768px) {
+  /* .new-album-padding-top-mobile {
+    padding-top: 50px;
+    padding-bottom: 15px; */
+  }
+
+
 .bio_text{
   font-size:200;
   font-weight:500;
@@ -192,6 +199,7 @@ text-align: left;
 .bg-1 {
 background: #2d2d30;
 color: #bdbdbd;
+padding-bottom: 30px;
 }
 
 .bg-1 h3 {color: #fff;
