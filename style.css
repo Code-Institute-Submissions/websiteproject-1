@@ -66,23 +66,10 @@ body{
 }
 
 
-/*********** Listen to our Music Page CSS***********/
-
-.bio_background{
-  background: Moccasin;
-  opacity: 0.7;
-  padding-left: 70px;
-  border: 1px solid #ccc;
-  /* padding-bottom: 20px; */
-}
+/*********** Music Page CSS***********/
 
 #music_list{
   border: 1px solid #ccc;
-}
-
-h6{
-  padding-left: 5px;
-  font-weight: bold;
 }
 
 .music_image {
@@ -91,11 +78,7 @@ h6{
     border: 1px solid #ccc;
   }
 
-  .bio_text{
-    font-size:200;
-    font-weight:500;
-    color:black
-  }
+
 
   audio{
     width: 220px;
@@ -112,7 +95,7 @@ h6{
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 15px;
-
+}
 
   /* border-style: dashed;
   border-radius: 20px;
@@ -120,16 +103,6 @@ h6{
   padding:4px;
   padding-left:0px;
   background-color: pink; */
-
-
-
-
-
-  }
-
-#music_bio{
-   border: 3px solid white;
-}
 
 #contact_image {
   padding-top: 0px;
@@ -152,6 +125,22 @@ h6{
   padding-right: 10px;
 }
 
+/*********** Biography CSS***********/
+
+.bio_text{
+  font-size:200;
+  font-weight:500;
+  color:black
+}
+
+h6{
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+#music_bio{
+   border: 3px solid white;
+}
 
 /*********** Gallery CSS***********/
 
