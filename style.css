@@ -45,6 +45,8 @@ body{
   list-style-type: none;
 }
 
+
+
 /*********** Welcome Page CSS***********/
 
 .img-fluid {
@@ -142,10 +144,10 @@ top: -400px;
 }
 
 .text-center{
-  padding-top: 20px;
   padding-bottom: 10px;
   font-weight: bolder;
   text-decoration-style: wavy;
+
 }
 .album1_image{
   width: 200px;
