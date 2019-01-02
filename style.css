@@ -116,11 +116,21 @@ audio{
 /*********** Biography CSS***********/
 
 @media screen and (max-width:768px) {
-  /* .new-album-padding-top-mobile {
-    padding-top: 50px;
-    padding-bottom: 15px; */
-  }
+   .col-xs-12{
+ display: flex;
+  flex-direction: column;
+  margin-top: 350px;
+}
 
+.text-center{
+  padding-right: 25px;
+}
+
+}
+
+.music_image{
+  margin-bottom: 10px;
+}
 
 .bio_text{
   font-size:200;
@@ -141,6 +151,7 @@ h6{
 padding-left: 70px;
 position: relative;
 top: -400px;
+
 }
 
 .text-center{
@@ -152,11 +163,13 @@ top: -400px;
 .album1_image{
   width: 200px;
   padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 .album2_image{
   width:200px;
   padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 .album3_image{
