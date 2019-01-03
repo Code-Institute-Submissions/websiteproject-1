@@ -201,12 +201,20 @@ div.desc {
     font-style: italic;
 }
 
-/*********** Contact Us CSS***********/
+/*********** Booking CSS***********/
 
 .text-center{
 padding-top: 2em;
 text-align: left;
 }
+
+.disclaimer{
+  color: black;
+}
+
+  #event_button{
+    margin-left: 0px;
+  }
 
 
 /*********** Event CSS***********/
