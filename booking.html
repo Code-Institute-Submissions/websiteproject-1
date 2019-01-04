@@ -59,46 +59,66 @@
 
         <!-- Contact Form -->
         <div class="container">
-          <br>
-          <h3 class="text-left">Contact Us</h3>
-          <p class="text-left"><em>We love our fans!</em></p>
 
-          <div class="row test" class="was-validated">
-            <div class="col-md-4">
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <form>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputFull-name4">Full Name</label>
-                        <input type="full-name" class="form-control" id="inputFull-name4" placeholder="Full Name" required>
-                      </div>
+          <div class="container">
+            <h3 class="text-center"><i>BOOKINGS</i></h3>
+            <p class="text-center">Make a booking and we'll play at your event!.</p>
+          </div>
 
-                      <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
-                        <small id="emailHelp" class="disclaimer"class="form-text text-muted">We'll never share your email with anyone else</small>
-                      </div>
-                      <textarea maxlength="100"class="form-control" id="comments" name="comments" placeholder="Comment" rows="3"></textarea>
-                    </div>
-                    <button type="submit" id="event_button" class="btn btn-primary">Submit</button>
-                  </form>
+          <form>
+            <div class="form-row">
 
-                </div>
+              <div class="form-group col-md-6">
+                <label for="inputFull-name4">Full Name</label>
+                <input type="full-name" class="form-control" id="inputFull-name4" placeholder="Full Name" required>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-md-6">
+                <label for="inputPhone4">Phone</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <span class="note">Format: 123-456-7890</span>
+              </div>
+
+              <div class="form-group col-md-6">
+                <label for="inputLocation-of-Event4">Location of Event</label>
+                <input type="text" class="form-control" id="inputLocation-of-Event4" placeholder="Location of Event" required>
+              </div>
+
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEventType">Type of Event</label>
+                <input type="text" class="form-control" id="inputEventType" placeholder="Event Type" required>
               </div>
             </div>
-          </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputBudget">Budget</label>
+                <input type="number" class="form-control" id="inputBudget"  min="500" max="10000" placeholder="multiple of 100" step="100"required>
+                <span class="note">Euro</span>
+              </div>
+            </div>
+
+            <button type="submit" id="event_button" class="btn btn-primary">Submit</button>
+          </form>
+          <br>
+
         </div>
       </div>
+                  <br>
 
-    <br><br>
-
-
-
-
-
-
-    <hr>
+                  <hr>
 
 
 </main>
