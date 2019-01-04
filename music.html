@@ -18,107 +18,114 @@
 
 <body>
 
-    <header class="container-fluid">
-      <div class="row">
-        <!-- Navbar  -->
+        <header class="container-fluid">
+          <div class="row">
+            <!-- Navbar  -->
+            <div class="container">
+              <div class="row">
+
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <img class="logo" src="assets\£_brothers.png" class="img-fluid" alt="Band Logo">
+                  <a class="navbar-brand" href="#"><strong><em>3Brothers</em></strong></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-item nav-link" href="index.html">Welcome</a>
+                      <a class="nav-item nav-link" href="biography.html">Biography</a>
+                      <a class="nav-item nav-link active" href="music.html">Music<span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                      <a class="nav-item nav-link" href="booking.html">Booking</a>
+                      <a class="nav-item nav-link" href="events.html">Events</a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+
+            </div>
+          </div>
+        </header>
+
+        <br>
+
+    <main>
+
         <div class="container">
           <div class="row">
 
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <img class="logo" src="assets\£_brothers.png" class="img-fluid" alt="Band Logo">
-              <a class="navbar-brand" href="#"><strong><em>3Brothers</em></strong></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link" href="index.html">Welcome</a>
-                  <a class="nav-item nav-link" href="biography.html">Biography</a>
-                  <a class="nav-item nav-link active" href="music.html">Music<span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="gallery.html">Gallery</a>
-                  <a class="nav-item nav-link" href="booking.html">Booking</a>
-                  <a class="nav-item nav-link" href="events.html">Events</a>
-                </div>
+            <!-- Picture of Vinyl records -->
+            <section class="col-sm-8">
+              <img src="assets\music-records.jpg" class="music_image" alt="Picture of vinyl records"></img>
+            </section>
+
+            <br>
+
+            <!-- Latest Releases -->
+            <section id="music_list" class="col-sm-3">
+              <p>
+                <h5>Latest Releases!</h5>
+              </p>
+
+              <div class="track_container">
+              <audio controls >
+                <source src="assets\tracks\Have_you_seen_the_rain.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <h6 class="audio_text">Have you seen the rain</h6>
               </div>
-            </nav>
+
+              <div class="track_container">
+              <audio controls>
+                <source src="assets\tracks\Suzy_Q.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <h6 class="audio_text">Suzy is Queen</h6>
+              </div>
+
+              <div class="track_container">
+              <audio controls>
+                <source src="assets\tracks\Looking_out_my_back_door.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <h6 class="audio_text">Looking out my back door</h6>
+              </div>
+            </section>
+
           </div>
-
         </div>
-      </div>
-    </header>
 
-    <br>
-
-    <main>
-    <!-- Picture of Vinyl records -->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8">
-          <img src="assets\music-records.jpg" class="music_image" alt="Picture of vinyl records"></img>
-        </div>
         <br>
-        <!-- Latest Releases -->
-        <div id="music_list" class="col-sm-3">
-          <p>
-            <h5>Latest Releases!</h5>
-          </p>
 
-          <div class="track_container">
-          <audio controls >
-            <source src="assets\tracks\Have_you_seen_the_rain.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
-          <h6 class="audio_text">Have you seen the rain</h6>
-          </div>
+        <hr>
 
-          <div class="track_container">
-          <audio controls>
-            <source src="assets\tracks\Suzy_Q.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
-          <h6 class="audio_text">Suzy is Queen</h6>
-          </div>
-
-          <div class="track_container">
-          <audio controls>
-            <source src="assets\tracks\Looking_out_my_back_door.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-          </audio>
-          <h6 class="audio_text">Looking out my back door</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <br><br>
-
-    <hr>
+    </main>
 
     <footer class="container">
-      <div class="row">
-        <div class="col-md-6 padding-top-mobile">
-          <h3 class="Connect-with us-text">Connect with us</h3>
-          <div class="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_left  et_pb_text_3">
-            <a href="https://www.facebook.com/" target="_blank"><img class="alignnone wp-image-128" src="http://www.realfredhammond.com/wp-content/uploads/2016/08/Header-Facebook-copy.jpg" alt="Header-Facebook copy" width="50" height="50"></a>&nbsp;&nbsp;
-            <a href="https://twitter.com/" target="_blank"><img class="alignnone wp-image-130" src="http://www.realfredhammond.com/wp-content/uploads/2016/08/Header-Twitter-copy.jpg" width="50" height="50"></a>&nbsp;&nbsp;
-            <a href="https://www.instagram.com/" target="_blank"><img class="alignnone wp-image-129" src="http://www.realfredhammond.com/wp-content/uploads/2016/08/Header-Instagram-copy.jpg" width="50" height="50"></a>&nbsp;&nbsp;
-            <a href="https://www.youtube.com/" target="_blank"><img class="alignnone wp-image-131" src="http://www.realfredhammond.com/wp-content/uploads/2016/08/Header-Youtube-copy.jpg" width="50" height="50"></a>
+          <div class="row">
+            <div class="col-md-6 padding-top-mobile">
+              <h3 class="Connect-with us-text">Connect with us</h3>
+              <div class="et_pb_text et_pb_module et_pb_bg_layout_dark et_pb_text_align_left  et_pb_text_3">
+                <a href="https://www.facebook.com/" target="_blank"><img class="alignnone wp-image-128" src="http://www.realfredhammond.com/wp-content/uploads/2016/08/Header-Facebook-copy.jpg" alt="Header-Facebook copy" width="50" height="50"></a>&nbsp;&nbsp;
+                <a href="https://twitter.com/" target="_blank"><img class="alignnone wp-image-130" src="http://www.realfredhammond.com/wp-content/uploads/2016/08/Header-Twitter-copy.jpg" width="50" height="50"></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/" target="_blank"><img class="alignnone wp-image-129" src="http://www.realfredhammond.com/wp-content/uploads/2016/08/Header-Instagram-copy.jpg" width="50" height="50"></a>&nbsp;&nbsp;
+                <a href="https://www.youtube.com/" target="_blank"><img class="alignnone wp-image-131" src="http://www.realfredhammond.com/wp-content/uploads/2016/08/Header-Youtube-copy.jpg" width="50" height="50"></a>
+              </div>
+            </div>
+
+            <div class="col-md-2 offset-md-4 margin-top-mobile">
+              <h3 class="quicklink-text">Quick Links</h3>
+              <ul class="quicklink-block">
+                <li class="current"><a href="#intro">Biography</a></li>
+                <li><a href="#about">Booking</a></li>
+                <li><a href="#works">Events</a></li>
+                <li><a href="#contact">Store</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
+        </footer>
 
-        <div class="col-md-2 offset-md-4 margin-top-mobile">
-          <h3 class="quicklink-text">Quick Links</h3>
-          <ul class="quicklink-block">
-            <li class="current"><a href="#intro">Biography</a></li>
-            <li><a href="#about">Booking</a></li>
-            <li><a href="#works">Events</a></li>
-            <li><a href="#contact">Store</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
 
-  </main>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
