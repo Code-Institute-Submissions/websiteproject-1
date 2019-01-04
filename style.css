@@ -1,10 +1,11 @@
 /*********** Global CSS***********/
 body{
-  background: url(assets/ron-smith-resized_89.jpg) no-repeat center center fixed;
+  /* background: url(assets/ron-smith-resized_89.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  background-color: seashell;
 }
 
 .page {
@@ -69,13 +70,13 @@ body{
 /*********** Music Page CSS***********/
 
 #music_list{
-  border: 1px solid #ccc;
+  border: 1px solid black;
 }
 
 .music_image {
     width: 100%;
     padding-top: 0px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
   }
 
 audio{
@@ -144,7 +145,7 @@ h6{
 }
 
 #music_bio{
-   border: 3px solid white;
+   border: 1px solid black;
 }
 
 #album_images {
