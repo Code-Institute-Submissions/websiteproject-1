@@ -5,7 +5,10 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; */
+<<<<<<< HEAD
   background-color: seashell;
+=======
+>>>>>>> 96843d97a53607651c3bc172ee7eccbaa1091fae
 }
 
 .page {
