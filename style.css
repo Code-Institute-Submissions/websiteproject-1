@@ -1,10 +1,10 @@
 /*********** Global CSS***********/
 body{
-  background: url(assets/ron-smith-resized_89.jpg) no-repeat center center fixed;
+  /* background: url(assets/ron-smith-resized_89.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .page {
