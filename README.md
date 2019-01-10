@@ -40,7 +40,8 @@ The website aims to showcase the music of the band and publicize past and up-com
 <h2>Features left to Implement</h2>
 None.
 
-<h5>Technologies Used</h5>
+<h2>Technologies Used</h2>
+
 <h3>1.jQuery</h3>
 The project uses jQuery to simplify DOM manipulation.
 
