@@ -90,11 +90,6 @@ audio{
     padding-bottom: 15px;
 }
 
-#contact_image {
-  padding-top: 0px;
-  width: 900px;
-}
-
 .band_text{
     text-align: center;
     font-weight: 400;
@@ -228,10 +223,21 @@ text-align: left;
   }
 
   .telephone_image{
-    width: 1200px;
+  height: auto;
+  width: auto;
+
+  }
+
+  #contact_image {
+    padding-top: 0px;
+    width: 1100px;
   }
 
 
+.budget_note {
+  font-size:small;
+  font-weight: bold;
+}
 /*********** Event CSS***********/
 
 .float-left{

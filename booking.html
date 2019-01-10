@@ -37,8 +37,9 @@
                   <a class="nav-item nav-link" href="biography.html">Biography</a>
                   <a class="nav-item nav-link" href="music.html">Music</a>
                   <a class="nav-item nav-link" href="gallery.html">Gallery</a>
-                  <a class="nav-item nav-link active" href="booking.html">Booking<span class="sr-only">(current)</span></a>
                   <a class="nav-item nav-link" href="events.html">Events</a>
+                  <a class="nav-item nav-link active" href="booking.html">Booking<span class="sr-only">(current)</span></a>
+
                 </div>
               </div>
             </nav>
@@ -52,12 +53,12 @@
     <br>
 
     <!-- Main picture -->
-    <!-- <div class="row"> -->
-        <!-- <div class="container-fluid"> -->
+    <div class="row"> -->
+        <div class="container-fluid">
           <div class="container">
             <img src="assets\pawel-czerwinski-784154-unsplash_50_2.jpg" class="telephone_image" id="contact_image" alt="Picture of a telephone"></img>
           </div>
-        <!-- </div> -->
+        </div>
 
 
         <!-- Contact Form -->
@@ -86,28 +87,28 @@
               <div class="form-group col-md-6">
                 <label for="inputPhone4">Phone</label>
                 <input type="tel" class="form-control" id="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                <span class="note">Format: 123-456-7890</span>
-              </div>
-
-              <div class="form-group col-md-6">
-                <label for="inputLocation-of-Event4">Location of Event</label>
-                <input type="text" class="form-control" id="inputLocation-of-Event4" placeholder="Location of Event" required>
+                <span class="budget_note">Format: 123-456-7890</span>
               </div>
 
             </div>
 
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEventType">Type of Event</label>
-                <input type="text" class="form-control" id="inputEventType" placeholder="Event Type" required>
+                <select class="custom-select" required>
+                  <option value="">Select Event Type</option>
+                  <option value="1">Wedding</option>
+                  <option value="2">Birthday</option>
+                  <option value="3">Funeral</option>
+                </select>
               </div>
             </div>
 
+
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputBudget">Budget</label>
+                <label for="inputBudget"></label>
                 <input type="number" class="form-control" id="inputBudget"  min="500" max="10000" placeholder="multiple of 100" step="100"required>
-                <span class="note">Euro</span>
+                <span class="budget_note">Budget in Euro</span>
               </div>
             </div>
 
