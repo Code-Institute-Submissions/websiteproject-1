@@ -15,19 +15,19 @@ The website aims to showcase the music of the band and publicize past and up-com
 
 <h2>Features</h2>
 
-<h5>Welcome page</h5> – Provide general theme of the website, provide links to other sections such as “samples of latest releases and up-coming events .
+<h5>Welcome page</h5> Provide general theme of the website, provide links to other sections such as “samples of latest releases and up-coming events .
 
-<h5>Biography page</h5> – Provides insight into the creation of the band, the highlights of the band and the future plans and albums that are available for purchase in stores.
+<h5>Biography page</h5> Provides insight into the creation of the band, the highlights of the band and the future plans and albums that are available for purchase in stores.
 
-<h5>Booking page</h5> – This page provides  a form to book the band to play at events. Clients are able to state the venue of the event and provide a budget.
+<h5>Booking page</h5> This page provides  a form to book the band to play at events. Clients are able to state the venue of the event and provide a budget.
 
-<h5>Events Page</h5>  -  The display up-coming events , keeping fans informed of band activities, with dates and cities to be visited.
+<h5>Events Page</h5>  The display up-coming events , keeping fans informed of band activities, with dates and cities to be visited.
 
-<h5>Gallery Page</h5> – Displays the pictures of the band, special events and affiliations
+<h5>Gallery Page</h5> Displays the pictures of the band, special events and affiliations
 
-<h5>Music Page</h5> – Presents an online player with samples of latest releases by the band.
+<h5>Music Page</h5> Presents an online player with samples of latest releases by the band.
 
-<h5>Footer</h5> – Provides Social link to allow fans connect with the band on various social media platforms and quick links pages /sections of the site
+<h5>Footer</h5> Provides Social link to allow fans connect with the band on various social media platforms and quick links pages /sections of the site
 
 <h2>Existing Features</h2>
 
@@ -88,7 +88,7 @@ The embedded audio elements on the music.html page appeared enhanced on the inte
 <h2>Deployment</h2>
 The project was hosted on Github pages https://thefiber.github.io/websiteproject/  and accessed / cloned via the url  git@github.com:TheFiber/websiteproject.git
 
-<h3>Credits</h3> Pawel Czerwinski and Ron Smith for picture on Unsplash.
+<h3>Credits</h3> Pawel Czerwinski and Ron Smith for pictures on Unsplash.
 
 <h3>Content</h3>
 •	Some elements were copied from W3schools, Bootstrap and Stackoverflow.
