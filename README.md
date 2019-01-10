@@ -31,10 +31,10 @@ The website aims to showcase the music of the band and publicize past and up-com
 
 <h2>Existing Features</h2>
 
-<h5>•	Booking form feature</h5> – Provides option to book the band for events, the form also has a feature to indicate the proposed budget the client is willing to pay.
-<h5>•	Music page</h5> – Provides music samples of latest release by the band.
-<h5>•	Quick Links</h5> – Quicks links in the footer section provides easy access to information and content.
-<h5>•	Connect with Us</h5> – Provides quick connection to the bands social media handles.
+<h5>Booking form feature</h5> Provides option to book the band for events, the form also has a feature to indicate the proposed budget the client is willing to pay.
+<h5>Music page</h5> Provides music samples of latest release by the band.
+<h5>Quick Links</h5> Quicks links in the footer section provides easy access to information and content.
+<h5>Connect with Us</h5> Provides quick connection to the bands social media handles.
 
 
 <h2>Features left to Implement</h2>
@@ -94,7 +94,7 @@ The project was hosted on Github pages https://thefiber.github.io/websiteproject
 •	Some elements were copied from W3schools, Bootstrap and Stackoverflow.
 
 <h3>Media</h3>
-•	The photos used in this site were obtained from unsplash and google images of music concerts. Audio tracks from YouTube and sound cloud.
+•	The photos used in this site were obtained from google images. Audio tracks from YouTube and sound cloud.
 
 <h3>Acknowledgements</h3>
 •	I received inspiration for this project from colleagues who had completed similar projects on the code institute slack forum , the technical leads and my mentor
