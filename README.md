@@ -1,4 +1,4 @@
-3Brothers Rock band
+#3Brothers Rock band
 
 The digital age has created increased access to information and data. The 3Brothers band, although popular with the younger generation have not had an online presence to date. This website provides this need and also functions as a means to connect with their fan base and the public.
 
