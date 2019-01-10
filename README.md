@@ -2,7 +2,8 @@
 
 The digital age has created increased access to information and data. The 3Brothers band, although popular with the younger generation have not had an online presence to date. This website provides this need and also functions as a means to connect with their fan base and the public.
 
-UX
+<h1>UX</h1>
+
 The website aims to showcase the music of the band and publicize past and up-coming tours, and enable events booking. Fans are able to book the band to play at special events, view details of upcoming tours, and listen to sample tracks of latest releases.
 
 User stories
