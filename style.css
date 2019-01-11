@@ -120,8 +120,15 @@ audio{
 @media screen and (max-width:768px) {
   #album_images{
     position: relative;
-    margin: auto;
+    margin:auto;
 
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .music_image{
+    margin-bottom:5px;
   }
 
 }
